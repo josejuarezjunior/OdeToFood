@@ -24,7 +24,6 @@ namespace OdeToFood.Pages.Restaurants
         }
         public void OnGet(string searchTerm)
         {
-            Message = "Hello, World!";
             Restaurants = restaurantData.GetRestaurantsByName(searchTerm);
 
         }
